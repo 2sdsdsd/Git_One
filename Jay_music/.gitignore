@@ -1,0 +1,6 @@
+node_modules/
+.cache/
+out/
+public/audio/bgm.*
+public/audio/mixed.wav
+public/audio/lyric-mixed.wav

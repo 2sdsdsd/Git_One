@@ -11,3 +11,12 @@
 .DS_Store
 Thumbs.db
 Desktop.ini
+
+# Jay_music dependencies and generated files
+Jay_music/node_modules/
+Jay_music/.cache/
+Jay_music/out/
+
+# Local audio assets
+Jay_music/*.mp3
+Jay_music/public/audio/

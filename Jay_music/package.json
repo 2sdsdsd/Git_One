@@ -1,0 +1,27 @@
+{
+  "name": "waiting-for-you-paper-mv",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "remotion studio src/index.ts --port 3010 --no-open",
+    "typecheck": "tsc --noEmit",
+    "prepare-audio": "node scripts/synthesize.mjs",
+    "render": "node scripts/render.mjs",
+    "stills": "node scripts/stills.mjs",
+    "attach-bgm": "node scripts/attach-bgm.mjs",
+    "lyrics-audio": "node scripts/lyric-audio.mjs",
+    "lyrics-stills": "node scripts/stills-lyrics.mjs",
+    "lyrics-render": "node scripts/render-lyrics.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.543",
+    "@remotion/renderer": "4.0.543",
+    "@remotion/bundler": "4.0.543",
+    "@remotion/player": "4.0.543",
+    "remotion": "4.0.543",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {"@types/react": "19.2.2", "@types/react-dom": "19.2.2", "typescript": "5.9.3"}
+}
